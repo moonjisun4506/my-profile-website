@@ -1,0 +1,529 @@
+<!DOCTYPE html><html class="h-full" lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>Portfolio Shell</title><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { colors: { 'outline-variant': '#c3c6d7', 'on-secondary-container': '#fffbff', 'primary-fixed-dim': '#b4c5ff', 'tertiary-container': '#606f80', 'on-primary-fixed': '#00174b', 'surface-dim': '#d2d9f4', 'tertiary-fixed-dim': '#b9c8db', 'background': '#faf8ff', 'surface-container': '#eaedff', 'on-tertiary-fixed': '#0e1d2b', 'on-tertiary-fixed-variant': '#3a4858', 'on-secondary': '#ffffff', 'primary-container': '#2563eb', 'secondary-fixed': '#dce1ff', 'inverse-primary': '#b4c5ff', 'on-error-container': '#93000a', 'on-tertiary-container': '#e9f2ff', 'on-error': '#ffffff', 'on-secondary-fixed': '#001551', 'on-background': '#131b2e', 'error': '#ba1a1a', 'outline': '#737686', 'on-primary-container': '#eeefff', 'surface-container-highest': '#dae2fd', 'primary': '#004ac6', 'on-secondary-fixed-variant': '#0039b5', 'secondary-container': '#4069f2', 'surface-bright': '#faf8ff', 'tertiary-fixed': '#d5e4f8', 'surface-tint': '#0053db', 'surface-container-lowest': '#ffffff', 'inverse-on-surface': '#eef0ff', 'surface-container-low': '#f2f3ff', 'tertiary': '#485767', 'surface-variant': '#dae2fd', 'surface-container-high': '#e2e7ff', 'inverse-surface': '#283044', 'primary-fixed': '#dbe1ff', 'on-tertiary': '#ffffff', 'error-container': '#ffdad6', 'on-primary-fixed-variant': '#003ea8', 'secondary-fixed-dim': '#b7c4ff', 'secondary': '#1d4ed8', 'on-primary': '#ffffff', 'surface': '#faf8ff', 'on-surface': '#131b2e', 'on-surface-variant': '#434655' }, borderRadius: { 'DEFAULT': '0.25rem', 'lg': '0.5rem', 'xl': '0.75rem', 'full': '9999px' }, spacing: { 'margin-desktop': '3rem', 'space-xl': '2.5rem', 'space-xs': '0.25rem', 'margin': '1.25rem', 'gutter': '1.5rem', 'space-sm': '0.5rem', 'space-md': '1rem', 'gutter-desktop': '2rem', 'space-lg': '1.5rem' }, fontFamily: { 'label-md': ['Inter'], 'headline-lg-mobile': ['Inter'], 'headline-lg': ['Inter'], 'headline-md': ['Inter'], 'display': ['Inter'], 'headline-sm': ['Inter'], 'body-md': ['Inter'], 'label-sm': ['Inter'], 'body-lg': ['Inter'], 'body-sm': ['Inter'], 'display-mobile': ['Inter'] }, fontSize: { 'label-md': ['14px', { lineHeight: '20px', letterSpacing: '-0.005em', fontWeight: '500' }], 'headline-lg-mobile': ['28px', { lineHeight: '36px', letterSpacing: '-0.02em', fontWeight: '600' }], 'headline-lg': ['40px', { lineHeight: '48px', letterSpacing: '-0.025em', fontWeight: '700' }], 'headline-md': ['28px', { lineHeight: '36px', letterSpacing: '-0.02em', fontWeight: '600' }], 'display': ['56px', { lineHeight: '64px', letterSpacing: '-0.03em', fontWeight: '700' }], 'headline-sm': ['20px', { lineHeight: '28px', letterSpacing: '-0.015em', fontWeight: '600' }], 'body-md': ['15px', { lineHeight: '24px', letterSpacing: '-0.005em', fontWeight: '400' }], 'label-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.02em', fontWeight: '600' }], 'body-lg': ['18px', { lineHeight: '28px', letterSpacing: '-0.01em', fontWeight: '400' }], 'body-sm': ['13px', { lineHeight: '20px', letterSpacing: '0em', fontWeight: '400' }], 'display-mobile': ['36px', { lineHeight: '44px', letterSpacing: '-0.025em', fontWeight: '700' }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md border-b border-surface-container shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><div class="h-16 max-w-7xl mx-auto px-margin md:px-gutter lg:px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Personal Monogram Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XbqXNMa41zJJf0rqMZox8uHY1LyuJYlMOIJ_P1cphP9h9KfhsWgfq35q5tF7adshy54tMXLjk4k09UDDYUAH8C-eIdpnipe1E0tM0e-yFjuSaIL0SA7yTnqk3Wwx6jJ6LQRaOrdO53WCsgn40J7CQoQ9ZHcJeW9M-C6i9LDFYg7z4fjCtk7apQ2AJCM9zxrLGMnIZ2WkuknaHUme-h947uqaz3nUyp3biwS59w81AfO9il7EgeJEkluw"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">Portfolio</span></div><nav class="hidden md:flex items-center gap-gutter" data-active-classes="text-primary font-label-md"><a aria-current="page" class="transition-colors text-primary font-label-md" data-path="home" href="#">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="#">Projects</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center rounded-xl bg-primary-container px-space-md py-space-xs font-label-md text-label-md text-on-primary-container hover:bg-secondary transition-all shadow-sm" data-path="contact" href="#">Get in Touch</a><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5qp6WzJDGLMBLxIOgs5KMN9EjwNaIVnTGjuPPLxWiH5K6l3j99e3WApIqxskWiCQTNr77sC6SeQVsluuyvd-cLjRc56T_MgENO-gTHO3UyDm8WA3oO4NY3q6loTJrwfaIswDV-J4cUh_uQhwC8FZteT1NBhsGcqcHhk5L2Raes80TmKqYYVP1Zi51TPK9__lhZCCPFkH3C61mxtKLWpv5S7qUWLDaNU1EVuZMJ_bQo0cJNUUSB2AP53Cqko90uKXS"></div></div></header><main class="flex-1 w-full pt-16 bg-background max-w-7xl mx-auto px-margin md:px-gutter lg:px-margin-desktop"><div class="flex flex-col w-full text-on-surface">
+<!-- Top Ambient Glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[850px] h-[350px] bg-gradient-to-b from-primary-fixed/40 via-surface-container/20 to-transparent blur-3xl pointer-events-none -z-10"></div>
+<!-- 1. HOME (HERO) SECTION -->
+<section class="py-16 lg:py-24" id="home">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Hero Text & Bio -->
+<div class="lg:col-span-7 flex flex-col items-start gap-6">
+<!-- Availability Tag -->
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container-low shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold tracking-wide uppercase">Available for New Projects</span>
+</div>
+<!-- Headline -->
+<h1 class="text-[40px] md:text-display font-display font-bold text-on-surface leading-[1.15] md:leading-[1.12] tracking-tight">안녕하세요, 제품과 경험을 만드는<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary-container">프로덕트 디자이너 &amp; 개발자</span><br>이정민입니다.</h1>
+<!-- Subheadline -->
+<p class="font-body-lg text-body-lg md:text-[20px] text-on-surface-variant max-w-2xl leading-relaxed">사용자 중심의 사고와 견고한 프론트엔드 엔지니어링을 결합하여, 심미성과 비즈니스 임팩트를 동시에 창출하는 지속 가능한 디지털 경험을 구축합니다.</p>
+<!-- CTA Buttons -->
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md shadow-md hover:bg-secondary hover:shadow-lg transition-all duration-200" href="#projects">
+<span class="">프로젝트 둘러보기</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm hover:bg-surface-container-low transition-all duration-200" href="#contact">
+<span class="">연락하기</span>
+<span class="material-symbols-outlined text-[18px]">mail</span>
+</a>
+</div>
+<!-- Metrics Strip -->
+<div class="grid grid-cols-3 gap-6 pt-6 mt-4 w-full max-w-xl">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight">30+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Completed Projects</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md font-bold text-primary tracking-tight">98%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Client Satisfaction</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md font-bold text-on-surface tracking-tight">5+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Years Experience</span>
+</div>
+</div>
+</div>
+<!-- Hero Portrait with Interactive Badges -->
+<div class="lg:col-span-5 flex justify-center lg:justify-end">
+<div class="relative w-72 sm:w-80 lg:w-96 aspect-square">
+<!-- Background Radial Glow -->
+<div class="absolute inset-0 rounded-full bg-gradient-to-tr from-primary-fixed via-secondary-fixed to-surface-container blur-2xl opacity-60"></div>
+<!-- Profile Image Container -->
+<div class="relative w-full h-full rounded-full p-2 bg-surface-container-lowest shadow-xl ring-8 ring-primary-fixed/40">
+<img alt="이정민 프로덕트 디자이너 프로필 사진" class="w-full h-full object-cover rounded-full shadow-inner" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5qp6WzJDGLMBLxIOgs5KMN9EjwNaIVnTGjuPPLxWiH5K6l3j99e3WApIqxskWiCQTNr77sC6SeQVsluuyvd-cLjRc56T_MgENO-gTHO3UyDm8WA3oO4NY3q6loTJrwfaIswDV-J4cUh_uQhwC8FZteT1NBhsGcqcHhk5L2Raes80TmKqYYVP1Zi51TPK9__lhZCCPFkH3C61mxtKLWpv5S7qUWLDaNU1EVuZMJ_bQo0cJNUUSB2AP53Cqko90uKXS">
+</div>
+<!-- Floating Pill 1: Experience -->
+<div class="absolute -bottom-2 -left-4 sm:left-0 bg-surface-container-lowest/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-lg flex items-center gap-3">
+<div class="w-8 h-8 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<div>
+<div class="font-label-sm text-label-sm font-bold text-on-surface">5+ Years Exp.</div>
+<div class="font-body-sm text-[11px] leading-tight text-on-surface-variant">Design &amp; Frontend</div>
+</div>
+</div>
+<!-- Floating Pill 2: Role -->
+<div class="absolute top-6 -right-4 sm:right-0 bg-surface-container-lowest/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-lg flex items-center gap-3">
+<div class="w-8 h-8 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">layers</span>
+</div>
+<div>
+<div class="font-label-sm text-label-sm font-bold text-on-surface">Product Designer</div>
+<div class="font-body-sm text-[11px] leading-tight text-on-surface-variant">Design Systems Specialist</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- SECTION DIVIDER ACCENT -->
+<div class="w-full h-px bg-surface-container my-8"></div>
+<!-- 2. ABOUT SECTION -->
+<section class="py-20" id="about">
+<div class="flex flex-col gap-10">
+<!-- Section Title -->
+<div class="flex flex-col items-start gap-2">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed">
+<span class="font-label-sm text-label-sm font-semibold tracking-wider uppercase">ABOUT ME</span>
+</div>
+<h2 class="text-headline-md md:text-headline-lg text-on-surface font-bold tracking-tight">경험과 비전으로 가치를 만드는 디자이너</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+          공학적 논리와 디자인적 감수성을 융합하여 구조적이고 확장 가능한 해결책을 설계합니다.
+        </p>
+</div>
+<!-- 3-Column Bento Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Column 1: 전공 (Education) -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">school</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Education</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">학력 및 전공</h3>
+</div>
+<div class="flex flex-col gap-4 text-on-surface-variant">
+<div>
+<h4 class="font-label-md text-label-md font-semibold text-on-surface">컴퓨터공학 &amp; 시각디자인 복수전공</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">B.S. in Computer Science &amp; Visual Communication Design</p>
+<span class="inline-block mt-2 font-label-sm text-label-sm px-2.5 py-0.5 rounded-md bg-surface-container-high text-on-surface">
+                  수석 졸업 (Summa Cum Laude)
+                </span>
+</div>
+<p class="font-body-sm text-body-sm leading-relaxed text-on-surface-variant">
+                알고리즘 및 자료구조와 타이포그래피, 인터랙션 디자인 이론을 통합 연구하여 인간-컴퓨터 상호작용(HCI) 최우수 졸업 과제 선정.
+              </p>
+</div>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span class="">HCI &amp; Interactive Media Specialization</span>
+</div>
+</div>
+<!-- Column 2: 경력 (Experience) -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">work_history</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Career Timeline</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">주요 경력</h3>
+</div>
+<div class="flex flex-col gap-5">
+<div class="relative pl-4 space-y-1">
+<div class="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-primary"></div>
+<div class="font-label-md text-label-md font-bold text-on-surface">Tech Innovators</div>
+<div class="font-body-sm text-body-sm text-primary font-medium">Senior Product Designer &amp; Lead Dev</div>
+<div class="font-label-sm text-[12px] text-on-surface-variant">2022 - 현재</div>
+</div>
+<div class="relative pl-4 space-y-1">
+<div class="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-outline-variant"></div>
+<div class="font-label-md text-label-md font-bold text-on-surface">Creative Studio</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">UI/UX Designer</div>
+<div class="font-label-sm text-[12px] text-on-surface-variant">2019 - 2022</div>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-container-low">
+<div class="font-label-sm text-label-sm font-semibold text-primary">핵심 성과 지표</div>
+<p class="font-body-sm text-body-sm text-on-surface mt-1">
+                  • 전사 디자인 시스템 구축 및 런칭<br>
+                  • 핵심 퍼널 개선으로 서비스 리텐션 <strong class="text-primary font-bold">+35%</strong> 달성
+                </p>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span class="">Continuous Product Impact</span>
+</div>
+</div>
+<!-- Column 3: 관심 분야 & 역량 (Interests & Tools) -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-tertiary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">psychology</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary font-bold">Expertise &amp; Tech</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">관심 분야 및 도구</h3>
+</div>
+<div class="flex flex-col gap-3">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Specialized Domains</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-body-sm text-body-sm">Design Systems</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-body-sm text-body-sm">Interaction Design</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-body-sm text-body-sm">Front-end Arch.</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-body-sm text-body-sm">AI-driven UX</span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface font-body-sm text-body-sm">Accessibility (a11y)</span>
+</div>
+</div>
+<div class="flex flex-col gap-3 pt-2">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Core Stack</div>
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-[#EA4C89]"></span> Figma
+                </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-[#00D8FF]"></span> React
+                </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-[#3178C6]"></span> TypeScript
+                </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-[#38BDF8]"></span> Tailwind
+                </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-on-surface"></span> Next.js
+                </span>
+</div>
+</div>
+</div>
+<div class="pt-6 mt-6 flex items-center gap-2 text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">code</span>
+<span class="">Bridge between Design &amp; Code</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION DIVIDER ACCENT -->
+<div class="w-full h-px bg-surface-container my-8"></div>
+<!-- 3. PROJECTS SECTION -->
+<section class="py-20" id="projects">
+<div class="flex flex-col gap-10">
+<!-- Section Title -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div class="flex flex-col items-start gap-2">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed">
+<span class="font-label-sm text-label-sm font-semibold tracking-wider uppercase">PROJECTS</span>
+</div>
+<h2 class="text-headline-md md:text-headline-lg text-on-surface font-bold tracking-tight">주요 프로젝트</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">사용자 데이터와 기술의 교차점에서 탄생한 실제 프로덕트 결과물입니다.</p>
+</div>
+<div class="hidden md:flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="">선별된 케이스 스터디 3선</span>
+<span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+</div>
+</div>
+<!-- 3 Project Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+<!-- PROJECT 1: FinFlow -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col group">
+<!-- Visual Mockup Container -->
+<div class="relative w-full h-56 bg-gradient-to-tr from-primary-fixed-dim/30 via-surface-container to-surface-bright p-5 overflow-hidden flex items-center justify-center">
+<!-- Simulated FinTech Visual UI Card -->
+<div class="w-full max-w-[280px] bg-surface-container-lowest rounded-xl p-4 shadow-md group-hover:scale-105 transition-transform duration-300">
+<div class="flex justify-between items-center mb-3">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Total Portfolio</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-primary font-label-sm text-[11px] font-semibold">+18.4%</span>
+</div>
+<div class="text-xl font-bold text-on-surface mb-3 tracking-tight">₩ 142,500,000</div>
+<!-- Mini SVG Sparkline -->
+<div class="h-12 w-full">
+<svg class="w-full h-full stroke-primary fill-transparent" stroke-linecap="round" stroke-width="2.5" viewBox="0 0 100 30">
+<path d="M 0 25 Q 20 28, 35 15 T 70 18 T 100 5"></path>
+</svg>
+</div>
+</div>
+<!-- Accent Badge -->
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-[11px] font-bold shadow-xs">
+              Fintech Mobile
+            </span>
+</div>
+<!-- Content Details -->
+<div class="p-6 sm:p-7 flex-1 flex flex-col justify-between">
+<div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-3">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">UI/UX Design</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">React</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">Fintech</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">Design System</span>
+</div>
+<!-- Title & Desc -->
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">
+                FinFlow - 차세대 자산 관리 핀테크 플랫폼
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                복잡한 금융 데이터를 직관적인 시각화와 스마트한 인사이트로 전환한 모바일/웹 서비스. 사용자 맞춤 포트폴리오 진단 알고리즘을 손쉽게 접근하도록 재설계했습니다.
+              </p>
+</div>
+<div class="pt-6 mt-6">
+<!-- Metric Box -->
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[22px]">workspace_premium</span>
+<div class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong class="font-semibold text-primary">월간 활성 사용자 120만 달성</strong>, App Store 오늘의 앱 선정
+                </div>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-primary font-semibold hover:gap-3 transition-all" href="#">
+<span class="">자세히 보기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- PROJECT 2: Nova AI -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col group">
+<!-- Visual Mockup Container -->
+<div class="relative w-full h-56 bg-gradient-to-tr from-inverse-surface via-tertiary to-inverse-surface p-5 overflow-hidden flex items-center justify-center">
+<!-- Simulated AI Interface Window -->
+<div class="w-full max-w-[280px] bg-inverse-surface/90 rounded-xl p-4 shadow-xl border border-white/10 group-hover:scale-105 transition-transform duration-300">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-surface-container-highest"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<span class="text-[11px] text-white/50 ml-auto font-mono">Nova AI Copilot</span>
+</div>
+<div class="space-y-2">
+<div class="p-2 rounded bg-white/10 text-[11px] text-white/80 leading-snug">
+                  "회의록 요약 및 주요 스프린트 태스크 생성이 완료되었습니다."
+                </div>
+<div class="flex items-center gap-1.5 text-primary-fixed font-mono text-[11px]">
+<span class="animate-pulse">●</span> 3개 워크플로우 자동화 실행 중
+                </div>
+</div>
+</div>
+<!-- Accent Badge -->
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-[11px] font-bold shadow-xs">
+              AI B2B SaaS
+            </span>
+</div>
+<!-- Content Details -->
+<div class="p-6 sm:p-7 flex-1 flex flex-col justify-between">
+<div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-3">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">SaaS</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">Generative AI</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">Next.js</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">Product Design</span>
+</div>
+<!-- Title & Desc -->
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">
+                Nova AI - 인공지능 워크스페이스 코파일럿
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                팀의 비동기 협업과 대규모 문서 요약, 반복 업무 자동화를 돕는 기업용 SaaS 인공지능 어시스턴트 플랫폼. 프롬프트 최소화 UI/UX를 개발했습니다.
+              </p>
+</div>
+<div class="pt-6 mt-6">
+<!-- Metric Box -->
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">rocket_launch</span>
+<div class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong class="font-semibold text-secondary">작업 효율 42% 향상</strong>, 유료 기업 고객 500+ 돌파
+                </div>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-primary font-semibold hover:gap-3 transition-all" href="#">
+<span class="">자세히 보기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+<!-- PROJECT 3: Urban Pulse -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col group">
+<!-- Visual Mockup Container -->
+<div class="relative w-full h-56 bg-gradient-to-tr from-surface-container-highest via-surface-container to-secondary-fixed/40 p-5 overflow-hidden flex items-center justify-center">
+<!-- Simulated Mobile Card UI -->
+<div class="w-full max-w-[280px] bg-surface-container-lowest rounded-xl p-4 shadow-md group-hover:scale-105 transition-transform duration-300">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center text-xs font-bold">UP</div>
+<div>
+<div class="font-label-sm text-label-sm font-bold text-on-surface">성수 로컬 아티스트 마켓</div>
+<div class="text-[11px] text-on-surface-variant">이번 주말 • 1.2km 근처</div>
+</div>
+</div>
+<div class="flex -space-x-1 mt-3">
+<span class="w-6 h-6 rounded-full bg-primary-fixed border border-white text-[10px] flex items-center justify-center font-bold text-primary">J</span>
+<span class="w-6 h-6 rounded-full bg-secondary-fixed border border-white text-[10px] flex items-center justify-center font-bold text-secondary">M</span>
+<span class="w-6 h-6 rounded-full bg-tertiary-fixed border border-white text-[10px] flex items-center justify-center font-bold text-tertiary">K</span>
+<span class="text-[11px] text-on-surface-variant pl-2 self-center font-medium">+142명 참여</span>
+</div>
+</div>
+<!-- Accent Badge -->
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-[11px] font-bold shadow-xs">
+              Community App
+            </span>
+</div>
+<!-- Content Details -->
+<div class="p-6 sm:p-7 flex-1 flex flex-col justify-between">
+<div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-3">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">Mobile App</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">Brand Identity</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-[12px]">Full Stack</span>
+</div>
+<!-- Title & Desc -->
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">
+                Urban Pulse - 라이프스타일 로컬 커뮤니티
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                로컬 크리에이터와 동네 주민을 실시간 매칭하는 소셜 커뮤니티 및 밋업 플랫폼. 오프라인 활동 참여를 극대화하는 반응형 모바일 아키텍처를 주도했습니다.
+              </p>
+</div>
+<div class="pt-6 mt-6">
+<!-- Metric Box -->
+<div class="p-3.5 rounded-xl bg-surface-container-low mb-4 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[22px]">hub</span>
+<div class="font-body-sm text-body-sm text-on-surface leading-tight">
+<strong class="font-semibold text-primary">누적 다운로드 45만</strong>, 사용자 체류 시간 2.5배 증가
+                </div>
+</div>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-primary font-semibold hover:gap-3 transition-all" href="#">
+<span class="">자세히 보기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- SECTION DIVIDER ACCENT -->
+<div class="w-full h-px bg-surface-container my-8"></div>
+<!-- 4. CONTACT SECTION -->
+<section class="pb-24 py-20" id="contact">
+<div class="flex flex-col gap-10">
+<!-- Section Title -->
+<div class="flex flex-col items-start gap-2">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed">
+<span class="font-label-sm text-label-sm font-semibold tracking-wider uppercase">CONTACT</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">
+          새로운 프로젝트나 협업 기회에 대해 편하게 이야기 나눠요
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          제품 설계, 디자인 시스템 컨설팅, 프로덕트 개발 제안 또는 커피챗 모두 환영합니다.
+        </p>
+</div>
+<!-- Split Layout: Contact Info vs Form -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left: Direct Contact Information & Socials -->
+<div class="lg:col-span-5 flex flex-col gap-8 bg-surface-container-lowest p-8 rounded-2xl shadow-sm">
+<div class="flex flex-col gap-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Contact Channels</h3>
+<!-- Email Item with Copy Trigger -->
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Email</span>
+<div class="flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">alternate_email</span>
+<span class="font-label-md text-label-md font-medium text-on-surface" id="email-text">contact@jeongmin.design</span>
+</div>
+<button class="text-primary hover:text-secondary p-1.5 rounded-lg hover:bg-surface-container transition-colors" onclick="navigator.clipboard.writeText('contact@jeongmin.design'); const el = document.getElementById('copy-feedback'); el.classList.remove('opacity-0'); setTimeout(() =&gt; el.classList.add('opacity-0'), 2000);" title="이메일 복사" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+</button>
+</div>
+<span class="font-body-sm text-[12px] text-primary opacity-0 transition-opacity" id="copy-feedback">이메일 주소가 클립보드에 복사되었습니다!</span>
+</div>
+<!-- Location -->
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Location</span>
+<div class="flex items-center gap-3 p-3.5 rounded-xl bg-surface-container-low">
+<span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Seoul, South Korea (대한민국 서울)</span>
+</div>
+</div>
+<!-- Phone / Office -->
+<div class="flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Direct Call &amp; Chat</span>
+<div class="flex items-center gap-3 p-3.5 rounded-xl bg-surface-container-low">
+<span class="material-symbols-outlined text-primary text-[20px]">call</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">+82 (0)10-8921-4820</span>
+</div>
+</div>
+</div>
+<!-- Social Links Strip -->
+<div class="flex flex-col gap-3 pt-4">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">Social Profiles</span>
+<div class="flex items-center gap-3">
+<!-- GitHub -->
+<a class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-primary-container hover:text-on-primary-container text-on-surface flex items-center justify-center transition-all duration-200" href="#" title="GitHub">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+</a>
+<!-- LinkedIn -->
+<a class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-primary-container hover:text-on-primary-container text-on-surface flex items-center justify-center transition-all duration-200" href="#" title="LinkedIn">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</a>
+<!-- Behance -->
+<a class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-primary-container hover:text-on-primary-container text-on-surface flex items-center justify-center transition-all duration-200" href="#" title="Behance">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+</a>
+<!-- Twitter / X -->
+<a class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-primary-container hover:text-on-primary-container text-on-surface flex items-center justify-center transition-all duration-200" href="#" title="Twitter / X">
+<span class="material-symbols-outlined text-[20px]">tag</span>
+</a>
+<!-- Dribbble -->
+<a class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-primary-container hover:text-on-primary-container text-on-surface flex items-center justify-center transition-all duration-200" href="#" title="Dribbble">
+<span class="material-symbols-outlined text-[20px]">sports_volleyball</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Right: Modern Contact Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-8 sm:p-10 rounded-2xl shadow-sm">
+<form class="flex flex-col gap-6" onsubmit="event.preventDefault(); const btn = document.getElementById('submit-btn'); btn.innerText = '메시지가 성공적으로 전송되었습니다!'; btn.classList.add('bg-secondary'); setTimeout(() =&gt; { btn.innerText = '메시지 보내기'; btn.classList.remove('bg-secondary'); }, 3000);">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Name -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm font-semibold text-on-surface" for="name">성함 / 담당자명</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline-variant focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all" id="name" placeholder="홍길동" required="" type="text">
+</div>
+<!-- Email -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm font-semibold text-on-surface" for="contact-email">이메일 주소</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline-variant focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all" id="contact-email" placeholder="name@company.com" required="" type="email">
+</div>
+</div>
+<!-- Subject -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm font-semibold text-on-surface" for="subject">문의 주제</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline-variant focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all" id="subject" placeholder="프로젝트 문의 / 디자인 시스템 협업 제안" required="" type="text">
+</div>
+<!-- Message -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm font-semibold text-on-surface" for="message">메시지 내용</label>
+<textarea class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline-variant focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all resize-none" id="message" placeholder="프로젝트의 개요, 일정 및 예상 범위를 자유롭게 공유해 주세요." required="" rows="5"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full sm:w-auto self-start px-8 py-3.5 rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold shadow-md hover:bg-secondary hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2" id="submit-btn" type="submit">
+<span class="">메시지 보내기</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-surface-container py-space-xl mt-auto"><div class="max-w-7xl mx-auto px-margin md:px-gutter lg:px-margin-desktop flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Personal Portfolio. Engineered with precision.</div><div class="flex items-center gap-gutter font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="projects" href="#">Projects</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></div></div></footer>
+
+</body></html>

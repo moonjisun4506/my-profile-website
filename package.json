@@ -1,0 +1,12 @@
+{
+  "name": "hong-gildong-portfolio",
+  "version": "1.0.0",
+  "description": "홍길동 개인 프로필 웹사이트 (HTML/CSS/JavaScript 정적 사이트)",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

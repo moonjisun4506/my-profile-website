@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>홍길동 | Data &amp; AI Researcher</title>
+  <meta name="description" content="데이터 분석과 인공지능에 관심이 있는 연구자 홍길동의 포트폴리오">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563eb'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='17' font-weight='700' fill='white' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=block" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" data-nav>
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span class="brand-name">Portfolio</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="주요 메뉴">
+        <a href="#home" class="nav-link is-active" data-nav>Home</a>
+        <a href="#about" class="nav-link" data-nav>About</a>
+        <a href="#projects" class="nav-link" data-nav>Projects</a>
+        <a href="#contact" class="nav-link" data-nav>Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-sm header-cta" data-nav>Get in Touch</a>
+        <img src="assets/profile.png" alt="홍길동 프로필" class="header-avatar">
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="main-nav">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container site-main">
+    <!-- 1. HOME (HERO) -->
+    <div class="hero-wrap">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <section class="hero section" id="home">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <div class="status-pill">
+              <span class="ping"><span class="ping-ring"></span><span class="ping-dot"></span></span>
+              <span>Open to Research Collaboration</span>
+            </div>
+
+            <h1 class="hero-title">
+              안녕하세요, 데이터로 세상을 읽는<br>
+              <span class="gradient-text">데이터 분석 &amp; AI 연구자</span><br>
+              홍길동입니다.
+            </h1>
+
+            <p class="hero-sub">데이터 분석과 인공지능에 관심이 있는 연구자입니다. 흩어진 데이터에서 의미 있는 패턴을 찾고, 머신러닝과 생성형 AI로 실제 문제를 해결하는 방법을 연구합니다.</p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary btn-lg" href="#projects" data-nav>
+                <span>프로젝트 둘러보기</span>
+                <span class="material-symbols-outlined icon-18">arrow_downward</span>
+              </a>
+              <a class="btn btn-secondary btn-lg" href="#contact" data-nav>
+                <span>연락하기</span>
+                <span class="material-symbols-outlined icon-18">mail</span>
+              </a>
+            </div>
+
+            <div class="metrics">
+              <div class="metric"><span class="metric-value">10+</span><span class="metric-label">Analysis Projects</span></div>
+              <div class="metric"><span class="metric-value text-primary">3</span><span class="metric-label">Core Research Areas</span></div>
+              <div class="metric"><span class="metric-value">3+</span><span class="metric-label">Years Research</span></div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="portrait">
+              <div class="portrait-glow" aria-hidden="true"></div>
+              <div class="portrait-frame">
+                <img src="assets/profile.png" alt="홍길동 프로필 사진">
+              </div>
+
+              <div class="float-pill float-pill--bottom">
+                <div class="float-icon float-icon--primary"><span class="material-symbols-outlined icon-20">query_stats</span></div>
+                <div>
+                  <div class="float-title">Data Analysis</div>
+                  <div class="float-sub">Python &amp; Statistics</div>
+                </div>
+              </div>
+
+              <div class="float-pill float-pill--top">
+                <div class="float-icon float-icon--secondary"><span class="material-symbols-outlined icon-20">neurology</span></div>
+                <div>
+                  <div class="float-title">AI Researcher</div>
+                  <div class="float-sub">ML &amp; Generative AI</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 2. ABOUT -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <span class="eyebrow eyebrow--secondary">About Me</span>
+        <h2 class="section-title">데이터와 AI로 질문에 답하는 연구자</h2>
+        <p class="section-desc">통계적 사고와 머신러닝 기술을 바탕으로, 데이터에서 근거 있는 인사이트를 도출합니다.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Education -->
+        <div class="card info-card">
+          <div class="info-body">
+            <div class="info-icon bg-primary-fixed text-primary"><span class="material-symbols-outlined icon-26">school</span></div>
+            <div>
+              <span class="kicker text-primary">Education</span>
+              <h3 class="card-title">학력 및 전공</h3>
+            </div>
+            <div class="stack-16">
+              <div>
+                <h4 class="item-title">데이터사이언스 석사</h4>
+                <p class="small muted">M.S. in Data Science</p>
+                <span class="badge-rect">통계학 학사 (B.S. in Statistics)</span>
+              </div>
+              <p class="small muted relaxed">통계적 추론과 머신러닝 이론을 기반으로, 텍스트 데이터 분석과 대규모 언어 모델 활용을 중심으로 연구하고 있습니다.</p>
+            </div>
+          </div>
+          <div class="info-foot text-primary">
+            <span class="material-symbols-outlined icon-16">verified</span>
+            <span>Text Mining &amp; NLP Research</span>
+          </div>
+        </div>
+
+        <!-- Career -->
+        <div class="card info-card">
+          <div class="info-body">
+            <div class="info-icon bg-secondary-fixed text-secondary"><span class="material-symbols-outlined icon-26">work_history</span></div>
+            <div>
+              <span class="kicker text-secondary">Research Timeline</span>
+              <h3 class="card-title">주요 경력</h3>
+            </div>
+            <div class="stack-20">
+              <div class="timeline-item">
+                <span class="timeline-dot is-current"></span>
+                <div class="item-title">AI 데이터 연구실</div>
+                <div class="small text-primary fw-500">연구원 (Researcher)</div>
+                <div class="tiny muted">2023 - 현재</div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div class="item-title">데이터 분석 스타트업</div>
+                <div class="small muted">데이터 분석 인턴</div>
+                <div class="tiny muted">2022 - 2023</div>
+              </div>
+              <div class="well">
+                <div class="label-sm text-primary">핵심 성과</div>
+                <p class="small mt-4">
+                  • 뉴스·소셜미디어 텍스트 분석 파이프라인 구축<br>
+                  • 생성형 AI 기반 챗봇 프로토타입 <strong class="text-primary">3건</strong> 개발
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="info-foot text-secondary">
+            <span class="material-symbols-outlined icon-16">trending_up</span>
+            <span>Data-driven Research</span>
+          </div>
+        </div>
+
+        <!-- Expertise -->
+        <div class="card info-card">
+          <div class="info-body">
+            <div class="info-icon bg-tertiary-fixed text-tertiary"><span class="material-symbols-outlined icon-26">psychology</span></div>
+            <div>
+              <span class="kicker text-tertiary">Expertise &amp; Tech</span>
+              <h3 class="card-title">전문 분야 및 도구</h3>
+            </div>
+            <div class="stack-12">
+              <div class="sub-label">Specialized Domains</div>
+              <div class="chips">
+                <span class="chip">데이터 분석</span>
+                <span class="chip">머신러닝</span>
+                <span class="chip">생성형 AI</span>
+              </div>
+            </div>
+            <div class="stack-12">
+              <div class="sub-label">Core Stack</div>
+              <div class="chips chips--gap8">
+                <span class="tool"><i style="background:#3776AB"></i>Python</span>
+                <span class="tool"><i style="background:#150458"></i>pandas</span>
+                <span class="tool"><i style="background:#F7931E"></i>scikit-learn</span>
+                <span class="tool"><i style="background:#EE4C2C"></i>PyTorch</span>
+                <span class="tool"><i style="background:#10A37F"></i>LLM API</span>
+              </div>
+            </div>
+          </div>
+          <div class="info-foot text-tertiary">
+            <span class="material-symbols-outlined icon-16">code</span>
+            <span>From Data to Intelligence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- 3. PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-head section-head--split">
+        <div class="section-head">
+          <span class="eyebrow eyebrow--primary">Projects</span>
+          <h2 class="section-title">주요 프로젝트</h2>
+          <p class="section-desc">데이터 분석과 인공지능 기술을 활용해 진행한 연구 프로젝트입니다.</p>
+        </div>
+        <div class="head-note">
+          <span>선별된 프로젝트 3선</span>
+          <span class="material-symbols-outlined icon-18">auto_awesome</span>
+        </div>
+      </div>
+
+      <!-- 각 카드의 data-href를 실제 프로젝트 링크로 바꾸세요 (현재는 예시 링크) -->
+      <div class="grid-3 grid-3--wide">
+        <!-- PROJECT 1: 뉴스 데이터 분석 -->
+        <article class="card project-card" data-href="https://github.com/example/news-data-analysis" tabindex="0" role="link" aria-label="뉴스 데이터 분석 프로젝트 자세히 보기 (새 탭)">
+          <div class="project-visual visual--finflow">
+            <div class="mock-card">
+              <div class="mock-row">
+                <span class="label-sm muted">키워드 '인공지능' 언급량</span>
+                <span class="mock-badge">+18.4%</span>
+              </div>
+              <div class="mock-amount">120,000 기사</div>
+              <svg class="sparkline" viewBox="0 0 100 30" stroke-linecap="round" aria-hidden="true">
+                <path d="M 0 25 Q 20 28, 35 15 T 70 18 T 100 5"></path>
+              </svg>
+            </div>
+            <span class="visual-badge text-primary">News Analytics</span>
+          </div>
+          <div class="project-body">
+            <div>
+              <div class="chips chips--sm">
+                <span class="chip">Python</span><span class="chip">텍스트 마이닝</span><span class="chip">토픽 모델링</span><span class="chip">시각화</span>
+              </div>
+              <h3 class="project-title">뉴스 데이터 분석</h3>
+              <p class="project-desc">온라인 뉴스 기사를 수집·정제하고 키워드 빈도와 토픽 모델링으로 사회적 이슈의 흐름을 분석했습니다. 시기별 주요 이슈 변화를 대시보드로 시각화했습니다.</p>
+            </div>
+            <div class="project-foot">
+              <div class="well well--row">
+                <span class="material-symbols-outlined icon-22 text-primary">newspaper</span>
+                <div class="small"><strong class="text-primary">기사 12만 건 분석</strong>, 주요 이슈 토픽 20개 도출</div>
+              </div>
+              <span class="more-link"><span>자세히 보기</span><span class="material-symbols-outlined icon-16">arrow_forward</span></span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: AI 챗봇 개발 -->
+        <article class="card project-card" data-href="https://github.com/example/ai-chatbot" tabindex="0" role="link" aria-label="AI 챗봇 개발 프로젝트 자세히 보기 (새 탭)">
+          <div class="project-visual visual--nova">
+            <div class="mock-window">
+              <div class="mock-row mock-row--start">
+                <span class="dot" style="background:#ba1a1a"></span>
+                <span class="dot" style="background:#dae2fd"></span>
+                <span class="dot" style="background:#2563eb"></span>
+                <span class="mono-label">AI Chatbot</span>
+              </div>
+              <div class="mock-msg">"질문하신 내용과 관련된 문서 3건을 찾아 요약했습니다."</div>
+              <div class="mock-status"><span class="pulse">●</span> 답변 생성 중...</div>
+            </div>
+            <span class="visual-badge text-secondary">Generative AI</span>
+          </div>
+          <div class="project-body">
+            <div>
+              <div class="chips chips--sm">
+                <span class="chip">LLM</span><span class="chip">RAG</span><span class="chip">Python</span><span class="chip">생성형 AI</span>
+              </div>
+              <h3 class="project-title">AI 챗봇 개발</h3>
+              <p class="project-desc">대규모 언어 모델과 검색 증강 생성(RAG)을 결합해 문서 기반으로 질문에 답하는 챗봇을 개발했습니다. 근거 문서를 함께 제시해 답변의 신뢰도를 높였습니다.</p>
+            </div>
+            <div class="project-foot">
+              <div class="well well--row">
+                <span class="material-symbols-outlined icon-22 text-secondary">smart_toy</span>
+                <div class="small"><strong class="text-secondary">답변 정확도 85%</strong>, 평균 응답 시간 2초 이내</div>
+              </div>
+              <span class="more-link"><span>자세히 보기</span><span class="material-symbols-outlined icon-16">arrow_forward</span></span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: 소셜미디어 분석 -->
+        <article class="card project-card" data-href="https://github.com/example/social-media-analysis" tabindex="0" role="link" aria-label="소셜미디어 분석 프로젝트 자세히 보기 (새 탭)">
+          <div class="project-visual visual--urban">
+            <div class="mock-card">
+              <div class="mock-row mock-row--start">
+                <div class="avatar-up">#</div>
+                <div>
+                  <div class="label-sm fw-700">#생성형AI 게시물 감성 분석</div>
+                  <div class="tiny-11 muted">최근 30일 • 게시물 5만 건</div>
+                </div>
+              </div>
+              <div class="avatars">
+                <span class="bg-primary-fixed text-primary">+</span>
+                <span class="bg-secondary-fixed text-secondary">0</span>
+                <span class="bg-tertiary-fixed text-tertiary">−</span>
+                <em>긍정 62% · 중립 27%</em>
+              </div>
+            </div>
+            <span class="visual-badge">Social Analytics</span>
+          </div>
+          <div class="project-body">
+            <div>
+              <div class="chips chips--sm">
+                <span class="chip">감성 분석</span><span class="chip">네트워크 분석</span><span class="chip">머신러닝</span>
+              </div>
+              <h3 class="project-title">소셜미디어 분석</h3>
+              <p class="project-desc">소셜미디어 게시물을 수집해 감성 분석과 해시태그 네트워크 분석을 수행했습니다. 특정 주제에 대한 여론의 변화와 주요 확산 경로를 파악했습니다.</p>
+            </div>
+            <div class="project-foot">
+              <div class="well well--row">
+                <span class="material-symbols-outlined icon-22 text-primary">hub</span>
+                <div class="small"><strong class="text-primary">게시물 5만 건 분석</strong>, 감성 분류 정확도 88%</div>
+              </div>
+              <span class="more-link"><span>자세히 보기</span><span class="material-symbols-outlined icon-16">arrow_forward</span></span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- 4. CONTACT -->
+    <section class="section section--last" id="contact">
+      <div class="section-head">
+        <span class="eyebrow eyebrow--secondary">Contact</span>
+        <h2 class="section-title">연구나 협업 기회에 대해 편하게 이야기 나눠요</h2>
+        <p class="section-desc section-desc--wide">데이터 분석 프로젝트, AI 연구 협업, 스터디 제안 또는 커피챗 모두 환영합니다.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card contact-info">
+          <div class="stack-24">
+            <h3 class="card-title fw-700">Contact Channels</h3>
+
+            <div class="field-group">
+              <span class="label-sm muted">Email</span>
+              <div class="well well--between">
+                <a class="email-link" href="mailto:hong@example.com" id="email-link" title="메일 보내기">
+                  <span class="material-symbols-outlined icon-20 text-primary">alternate_email</span>
+                  <span id="email-text">hong@example.com</span>
+                </a>
+                <button class="icon-btn" id="copy-email" type="button" title="이메일 복사" aria-label="이메일 주소 복사">
+                  <span class="material-symbols-outlined icon-18">content_copy</span>
+                </button>
+              </div>
+              <span class="copy-feedback" id="copy-feedback" aria-live="polite">이메일 주소가 클립보드에 복사되었습니다!</span>
+            </div>
+
+            <div class="field-group">
+              <span class="label-sm muted">Location</span>
+              <div class="well well--row">
+                <span class="material-symbols-outlined icon-20 text-primary">location_on</span>
+                <span class="label-md">Seoul, South Korea (대한민국 서울)</span>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <span class="label-sm muted">Direct Call &amp; Chat</span>
+              <a class="well well--row well--link" href="tel:+821000000000">
+                <span class="material-symbols-outlined icon-20 text-primary">call</span>
+                <span class="label-md">+82 (0)10-0000-0000</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="stack-12 socials-wrap">
+            <span class="sub-label">Social Profiles</span>
+            <div class="socials">
+              <a href="https://github.com/" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><span class="material-symbols-outlined icon-20">terminal</span></a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><span class="material-symbols-outlined icon-20">badge</span></a>
+              <a href="https://scholar.google.com/" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar"><span class="material-symbols-outlined icon-20">school</span></a>
+              <a href="https://www.kaggle.com/" target="_blank" rel="noopener" title="Kaggle" aria-label="Kaggle"><span class="material-symbols-outlined icon-20">leaderboard</span></a>
+              <a href="https://velog.io/" target="_blank" rel="noopener" title="Blog" aria-label="Blog"><span class="material-symbols-outlined icon-20">edit_note</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card contact-form-card">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">성함 / 소속</label>
+                <input id="name" name="name" type="text" placeholder="성함 또는 소속을 입력해 주세요" required>
+              </div>
+              <div class="form-field">
+                <label for="contact-email">이메일 주소</label>
+                <input id="contact-email" name="email" type="email" placeholder="name@company.com" required>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="subject">문의 주제</label>
+              <input id="subject" name="subject" type="text" placeholder="연구 협업 제안 / 데이터 분석 프로젝트 문의" required>
+            </div>
+            <div class="form-field">
+              <label for="message">메시지 내용</label>
+              <textarea id="message" name="message" rows="5" placeholder="협업 내용, 일정 및 기대하는 결과를 자유롭게 공유해 주세요." required></textarea>
+            </div>
+            <p class="form-error" id="form-error" aria-live="polite"></p>
+            <button class="btn btn-primary btn-lg btn-submit" id="submit-btn" type="submit">
+              <span class="btn-label">메시지 보내기</span>
+              <span class="material-symbols-outlined icon-18">send</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="small muted">© <span id="year">2025</span> 홍길동. Data &amp; AI Researcher.</div>
+      <nav class="footer-nav" aria-label="하단 메뉴">
+        <a href="#home" data-nav>Home</a>
+        <a href="#about" data-nav>About</a>
+        <a href="#projects" data-nav>Projects</a>
+        <a href="#contact" data-nav>Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
